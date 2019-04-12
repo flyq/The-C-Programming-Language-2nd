@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+void main() {
+  char c;
+
+  c = char(getchar());
+  while (c != char(EOF)) {
+    putchar(c);
+    c = getchar();
+  }
+}
